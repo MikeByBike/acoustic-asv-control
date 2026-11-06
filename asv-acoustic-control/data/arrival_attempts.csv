@@ -1,0 +1,19 @@
+attempt,command,start_x_m,start_y_m,start_distance_to_goal_m,outcome,time_to_arrive_s,closest_sample_m,first_within_0.5m_s,notes
+1,23,0.418,1.093,1.82,arrived,79,0.2,76,slow final approach; hovered 0.56 to 0.86 m
+2,24,0.418,1.093,1.82,failed,,,,no data; cause not known
+3,25,0.418,1.093,1.82,arrived,15,0.15,15,direct; one reply lost (resend)
+4,26,0.372,1.335,1.76,failed,,,,no data; cause not known
+5,27,0.537,0.824,1.88,timed out,120,0.3,76,hovered and wandered 0.30 to 1.1 m; near miss
+6,28,0.537,0.824,1.88,arrived,40,0.14,40,plateau near 1.5 m then quick finish; start reading identical to attempt 5 (probably a copy)
+7,29,0.314,0.614,2.18,arrived,27,0.15,26,direct
+8,30,0.553,0.605,2.01,arrived,26,0.15,26,direct
+9,31,0.384,0.626,2.12,timed out,120,1.05,never,stalled near 1.15 m for about 45 s
+10,32,0.407,0.609,2.11,arrived,~30,0.13,~30,"direct; reply lost (resend); time ESTIMATED, first log line cut off"
+11,33,0.383,0.71,2.07,timed out,120,0.33,61,"out to 1.43 m, hovered 0.3 to 0.6 m, drifted to 1.0 m; reply lost (resend); first 10 s not seen"
+12,34,0.376,0.581,2.16,timed out,120,0.95,never,stalled near 1.15 m; two resends
+discarded,35,0.323,0.612,2.18,discarded by operator,,,,reason not recorded; not counted
+13,36,0.536,0.605,2.02,arrived,98,0.16,30,hovered 0.43 to 0.86 m
+14,37,0.458,0.995,1.84,arrived,111,0.19,26,hovered 0.25 to 0.65 m for about 85 s
+15,38,0.457,0.672,2.04,arrived,28,0.14,28,direct
+16,39,0.5,0.551,2.09,timed out,120,0.52,never,"within 0.52 m at 41 s, then drifted back out to 2.1 m"
+17,40,0.434,0.79,1.98,arrived,63,0.15,63,"moved away from 1.30 to 1.79 m, then recovered"
