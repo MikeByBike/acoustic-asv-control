@@ -83,22 +83,13 @@ python3 -m unittest discover -s tests
 ## Limitations
 
 - There is no failsafe for a lost link, and `stop` (hold position) has not been tested on hardware.
+- All tests were carried out within a pool which limits the acoustic signals
 - There is no authentication: any modem that sends to the platform's address can issue commands.
 - The only destination is the fixed place A. The coordinate frame of the goal topic is not settled, so
   other goals could send the robot the wrong way.
 - Arrival within 0.2 m is unreliable and the reasons are not established.
 - The programs were tested in simulation with stand-ins for the serial and ROS libraries. Real equipment
   was used only for the trials listed above.
-
-## What is not in this repository
-
-The host laboratory's internal documents and software, the modem manufacturer's user guide (get it from
-Succorfish), raw photos and video, the technical report, and any credentials.
-
-## Development note
-
-The software and the report were prepared with the help of an AI assistant (Claude, Anthropic). All
-commands were run on the real equipment by the author, who supplied all measurements and logs.
 
 ## License
 
